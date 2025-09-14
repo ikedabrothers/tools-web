@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>合同会社BROTHERS | Tools</title>
+<style>
+  :root{color-scheme:light dark}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#f8fafc;color:#0f172a;margin:0}
+  header{padding:40px 20px 20px;text-align:center}
+  h1{margin-bottom:8px;font-size:2.6rem}
+  p.lead{max-width:640px;margin:0 auto;font-size:1.1rem;line-height:1.6;color:#475569}
+  nav{margin-top:24px;display:flex;justify-content:center;gap:18px;font-size:.95rem;flex-wrap:wrap}
+  nav a{color:#2563eb;text-decoration:none;padding:6px 12px;border-radius:999px;background:rgba(37,99,235,.08)}
+  nav a:hover{background:rgba(37,99,235,.16)}
+  main{max-width:960px;margin:0 auto;padding:20px}
+  section{margin:48px 0}
+  .product-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+  .card{background:#fff;border-radius:18px;padding:24px;box-shadow:0 12px 30px rgba(15,23,42,.08);display:flex;flex-direction:column;gap:18px}
+  .card h3{margin:0;font-size:1.5rem}
+  .badge{display:inline-block;padding:4px 10px;border-radius:999px;font-size:.8rem;font-weight:600;background:#dbeafe;color:#1e40af}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:12px 20px;border-radius:12px;background:#0f62fe;color:#fff;text-decoration:none;font-weight:600}
+  .btn.secondary{background:#e2e8f0;color:#0f172a}
+  ul{padding-left:20px}
+  footer{border-top:1px solid rgba(15,23,42,.1);padding:32px 20px;text-align:center;font-size:.9rem;color:#475569}
+  @media(prefers-color-scheme:dark){
+    body{background:#020617;color:#e2e8f0}
+    .card{background:#0f172a;box-shadow:0 12px 30px rgba(0,0,0,.6)}
+    .btn.secondary{background:#1e293b;color:#e2e8f0}
+    footer{border-color:rgba(148,163,184,.4);color:#cbd5f5}
+  }
+</style>
+<body>
+  <header>
+    <h1>合同会社BROTHERS ツール案内</h1>
+    <p class="lead">Chrome 拡張やミニ SaaS を中心に、個人でもスピーディーに導入できるツールを展開しています。ここでは現在提供中および準備中のプロダクトと各種ポリシーをまとめています。</p>
+    <nav>
+      <a href="#products">プロダクト</a>
+      <a href="#policies">ポリシー</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="products">
+      <h2>提供中のプロダクト</h2>
+      <div class="product-grid">
+        <article class="card">
+          <div class="badge">Chrome 拡張</div>
+          <h3>X Auto Follow</h3>
+          <p>指定した条件に沿って X（旧Twitter）上のアカウントを自動フォローし、リード獲得やコミュニティ拡大を効率化するオートメーション拡張。フォロー上限やインターバルも細かく設定でき、レート制限に配慮した設計です。</p>
+          <ul>
+            <li>フリープラン + Stripe 定期課金のスタンダードプラン</li>
+            <li>Firebase Authentication / chrome.storage による安全な管理</li>
+            <li>主要ポリシーとサポート体制を公開済み</li>
+          </ul>
+          <div>
+            <a class="btn" href="./x-auto-follow/index.html">製品サイトへ</a>
+            <a class="btn secondary" href="./x-auto-follow/law.html">特商法表示</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="policies">
+      <h2>ポリシー・法務関連</h2>
+      <p>X Auto Follow に関するポリシーと開示情報は以下からご確認いただけます。</p>
+      <ul>
+        <li><a href="./x-auto-follow/law.html">特定商取引法に基づく表記</a></li>
+        <li><a href="./x-auto-follow/privacy.html">プライバシーポリシー</a></li>
+        <li><a href="./x-auto-follow/deletion.html">データ削除手順</a></li>
+        <li><a href="./x-auto-follow/support.html">サポートポリシー</a></li>
+        <li><a href="./x-auto-follow/terms.html">利用規約</a></li>
+        <li><a href="./x-auto-follow/refund.html">返金ポリシー</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>お問い合わせ</h2>
+      <p>重大障害や法務上のご相談は以下からご連絡ください。</p>
+      <ul>
+        <li>メール：<a href="mailto:support@ikedabrothers.jp">support@ikedabrothers.jp</a></li>
+        <li>フォーム：<a href="https://forms.gle/VE1ujhKsHr7U15MG7" target="_blank" rel="noopener">Googleフォーム</a></li>
+        <li>電話：090-4709-1093（個人情報に関するお問い合わせのみ。その他のお問い合わせはメールへ）</li>
+        <li>受付時間：平日 10:00-18:00（日本時間）</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 合同会社BROTHERS</p>
+    <p>
+      <a href="./x-auto-follow/law.html">特定商取引法</a> /
+      <a href="./x-auto-follow/privacy.html">プライバシー</a> /
+      <a href="./x-auto-follow/deletion.html">データ削除</a> /
+      <a href="./x-auto-follow/support.html">サポート</a> /
+      <a href="./x-auto-follow/terms.html">利用規約</a> /
+      <a href="./x-auto-follow/refund.html">返金ポリシー</a>
+    </p>
+  </footer>
+</body>
+</html>

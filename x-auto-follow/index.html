@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>X Auto Follow | 公式サイト</title>
+<style>
+  :root{color-scheme:light dark}
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:960px;margin:0 auto;padding:32px 20px;line-height:1.7;background:#fdfdfd;color:#111}
+  header{margin-bottom:32px}
+  h1{margin:0;font-size:2.4rem;line-height:1.2}
+  nav{margin-top:12px;display:flex;flex-wrap:wrap;gap:12px;font-size:.95rem}
+  nav a{color:#0069c2;text-decoration:none}
+  nav a:hover{text-decoration:underline}
+  section{margin:48px 0}
+  .hero{background:#eef5ff;border-radius:16px;padding:32px 28px}
+  .hero p{margin:12px 0 0}
+  .cta{display:inline-block;margin-top:20px;padding:12px 20px;background:#0069c2;color:#fff;border-radius:999px;text-decoration:none;font-weight:600}
+  .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+  .card{border:1px solid #cfd8e3;border-radius:12px;padding:20px;background:#fff}
+  .plan-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+  .plan-card{border:2px solid #cfd8e3;border-radius:16px;padding:24px;background:#fff;position:relative}
+  .plan-card.featured{border-color:#0069c2;box-shadow:0 10px 30px rgba(0,0,0,.08)}
+  .plan-card h3{margin-top:0}
+  .plan-card .price{font-size:2rem;font-weight:700;margin:4px 0}
+  .plan-card .price small{font-size:.9rem;font-weight:400;color:#555}
+  .plan-card ul{list-style:none;padding:0;margin:16px 0 0}
+  .plan-card li{display:flex;gap:8px;align-items:flex-start;margin:8px 0}
+  .plan-card .mark{font-weight:700;width:16px;text-align:center}
+  .plan-card .mark.no{color:#999}
+  .plan-note{margin-top:18px;font-size:.95rem;color:#444}
+  .plan-limit{margin-top:12px;font-size:.9rem;color:#6b7280;text-align:center}
+  ul{padding-left:20px}
+  footer{margin-top:60px;padding-top:24px;border-top:1px solid #ddd;font-size:.9rem;color:#555}
+  footer a{color:#0069c2;text-decoration:none}
+  @media (prefers-color-scheme:dark){
+    body{background:#050608;color:#f7f7f7}
+    .hero{background:#0f1a2b}
+    .card{background:#0a0f18;border-color:#1f2a3a}
+    .plan-card{background:#0a0f18;border-color:#1f2a3a}
+    .plan-card.featured{border-color:#4ca1ff;box-shadow:0 10px 30px rgba(0,0,0,.4)}
+    .plan-card .price small{color:#bbb}
+    .plan-card .mark.no{color:#666}
+    nav a,footer a{color:#8ac8ff}
+  }
+</style>
+<body>
+  <header>
+    <nav style="margin-bottom:16px;font-size:.9rem">
+      <a href="../index.html" style="color:#0069c2;text-decoration:none">&larr; 合同会社BROTHERS ツール案内トップへ</a>
+    </nav>
+    <h1>X Auto Follow</h1>
+    <p>指定した条件に沿ってX（旧Twitter）上のアカウントを自動フォローし、リード獲得やコミュニティ拡大を効率化するChrome拡張機能です。</p>
+    <nav>
+      <a href="#about">サービス概要</a>
+      <a href="#features">主な機能</a>
+      <a href="#pricing">料金・導入手順</a>
+      <a href="#policies">ポリシーと安全性</a>
+      <a href="#contact">サポート</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="about">
+    <h2>サービス概要</h2>
+    <p>X Auto Follow は、指定したキーワードに基づいてターゲットとなるアカウントを自動でフォローし、マーケティング活動の初動を短時間で行えるように設計されたシンプルなChrome拡張です。フォロー上限の設定を行えるため、不正利用や大量フォローを避けつつ安全に運用できます。</p>
+    <a class="cta" href="#pricing">導入の流れを見る</a>
+  </section>
+
+  <section id="features">
+    <h2>主な機能</h2>
+    <div class="card-grid">
+      <article class="card">
+        <h3>キーワードターゲティング</h3>
+        <p>指定したキーワードにマッチした投稿やプロフィールを見つけ出し、興味関心の近いアカウントだけを自動フォローできます。</p>
+      </article>
+      <article class="card">
+        <h3>フォロー制限の管理</h3>
+        <p>1日の最大フォロー数・インターバルを設定し、Xのレート制限に抵触しにくい運用をサポートします。</p>
+      </article>
+      <article class="card">
+        <h3>シンプルな自動化フロー</h3>
+        <p>Chrome拡張上で設定・開始・停止まで完結し、余計な機能を省いた軽量な体験を提供します。</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>料金プラン</h2>
+    <p>まずはフリープランで操作感を確かめ、運用が軌道に乗ったらスタンダードプランに切り替えられます。</p>
+    <div class="plan-grid">
+      <article class="plan-card">
+        <h3>フリープラン</h3>
+        <p class="price">0円<small>/月</small></p>
+        <p>ライトユーザー向け。キーワード検証と初期運用をサポートします。</p>
+        <ul>
+          <li><span class="mark">○</span>1日10フォロー/月間20フォローまでの制限</li>
+          <li><span class="mark">○</span>フォロー間隔 最短30秒</li>
+          <li><span class="mark no">×</span>個別サポート（セルフヘルプのみ）</li>
+        </ul>
+      </article>
+      <article class="plan-card featured">
+        <h3>スタンダードプラン</h3>
+        <p class="price">2,980円<small>/月（税込）</small></p>
+        <p>本格運用を想定した有料版。<a href="https://deaihunter.com/p/campaign/khl9CeHk/WC47jyNK" target="_blank" rel="noopener">こちら</a>からサブスクリプション決済できます。</p>
+        <ul>
+          <li><span class="mark">○</span>フォロー数 無制限</li>
+          <li><span class="mark">○</span>フォロー間隔 最短 5 秒</li>
+          <li><span class="mark">○</span>重大障害時のみフォーム対応</li>
+        </ul>
+      </article>
+    </div>
+    <p class="plan-limit">【全プラン共通】本サービスは1人1アカウントまでの利用に限定し、比較中のいずれのプランもこの制限下で提供しています。</p>
+    <p class="plan-note">フリープランを提供しているため追加の無料トライアル期間は設けていません。スタンダードプランは Stripe カスタマーポータルからいつでも解約・請求情報の更新ができます。サポートは重大障害時に限り Googleフォームで受け付け、原則返金対応はしていません。</p>
+  </section>
+
+  <section id="policies">
+    <h2>ポリシーと安全性</h2>
+    <p>X Auto Follow はユーザーの認証情報を Firebase Authentication で安全に保管し、拡張の設定データはブラウザの <code>chrome.storage.local</code> のみに保存されます。詳細は各ポリシーをご確認ください。</p>
+    <ul>
+      <li><a href="./privacy.html">プライバシーポリシー</a></li>
+      <li><a href="./deletion.html">データ削除の手順</a></li>
+      <li><a href="./support.html">サポート・お問い合わせ</a></li>
+      <li><a href="./law.html">特定商取引法に基づく表記</a></li>
+      <li><a href="./terms.html">利用規約</a></li>
+      <li><a href="./refund.html">返金ポリシー</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>運営情報・お問い合わせ</h2>
+    <p>開発・運営：合同会社BROTHERS</p>
+    <p>お問い合わせ：重大な不具合時のみ <a href="https://forms.gle/VE1ujhKsHr7U15MG7" target="_blank" rel="noopener">Googleフォーム</a> よりお気軽にご連絡ください。</p>
+    <p>メール：<a href="mailto:support@ikedabrothers.jp">support@ikedabrothers.jp</a></p>
+    <p>電話：090-4709-1093（個人情報に関するお問い合わせのみ対応。それ以外はメール・フォームでお願いします）</p>
+    <p>営業時間：平日 10:00-18:00（日本時間）</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 X Auto Follow</p>
+    <p>
+      <a href="./privacy.html">プライバシーポリシー</a> /
+      <a href="./deletion.html">データ削除</a> /
+      <a href="./support.html">サポート</a> /
+      <a href="./law.html">特定商取引法</a> /
+      <a href="./terms.html">利用規約</a> /
+      <a href="./refund.html">返金ポリシー</a>
+    </p>
+  </footer>
+</body>
+</html>

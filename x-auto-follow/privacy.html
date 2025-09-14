@@ -1,0 +1,52 @@
+<!doctype html><html lang="ja"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>プライバシーポリシー | X Auto Follow</title>
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;line-height:1.7}
+  h1,h2{line-height:1.3}
+  code{background:#f4f4f4;padding:1px 4px;border-radius:4px}
+  small{color:#666}
+</style>
+<p><a href="../index.html">&larr; 合同会社BROTHERS</a> / <a href="./index.html">X Auto Follow</a></p>
+<h1>プライバシーポリシー</h1>
+<p>本拡張機能「X Auto Follow」（以下「本拡張」）は、ユーザーのログイン管理および機能提供に必要な最小限の情報のみを取り扱います。</p>
+
+<h2>収集・利用する情報</h2>
+<ul>
+  <li><strong>メールアドレス</strong>：本人確認・ログイン状態の維持にのみ利用します。</li>
+  <li><strong>パスワード</strong>：平文では保存せず、Firebase Authentication によりハッシュ化等の適切な方法で安全に管理されます。</li>
+  <li><strong>拡張の設定情報</strong>（例：キーワード、動作オプション等）：ブラウザの <code>chrome.storage.local</code> に保存され、外部サーバーへ送信しません。</li>
+</ul>
+
+<h2>保存先</h2>
+<ul>
+  <li>認証情報：Firebase Authentication</li>
+  <li>設定情報：ユーザーのブラウザ（<code>chrome.storage.local</code>）</li>
+</ul>
+
+<h2>第三者提供</h2>
+<p>取得した情報を第三者へ販売・共有しません。法令に基づく場合を除き、本人の同意なく第三者へ提供しません。</p>
+
+<h2>データの保持期間</h2>
+<p>ユーザーがアカウント削除を行うか、削除の申し出があるまで、認証情報は Firebase Authentication 上で保持されます。設定情報はユーザーが拡張の設定をリセットするか、ブラウザのデータ削除を行うまで保持されます。</p>
+
+<h2>ユーザーの権利</h2>
+<ul>
+  <li>いつでもアカウントの削除を申請できます（<a href="./deletion.html">データ削除手順</a>）。</li>
+  <li>設定情報は拡張の設定リセット、またはブラウザのサイトデータ削除で消去できます。</li>
+</ul>
+
+<h2>問い合わせ先</h2>
+<p>ご不明点は <a href="./support.html">サポートページ</a> をご覧ください。</p>
+
+<hr>
+<p><small>最終更新日：2025-11-10</small></p>
+
+<!-- Googleログイン（OAuth）を使う場合は、上の「収集・利用する情報」を次に置換してください：
+<ul>
+  <li><strong>Googleアカウントの基本情報</strong>（ユーザーID・メールアドレス）：本人確認およびログイン状態の維持にのみ利用します。保存先は Firebase Authentication です。</li>
+  <li><strong>拡張の設定情報</strong>：<code>chrome.storage.local</code> に保存（外部送信しません）。</li>
+</ul>
+<p>本拡張は Google の OAuth スコープを最小限に限定し、閲覧履歴やパスワード等のその他の個人情報は取得しません。</p>
+-->
+</html>
